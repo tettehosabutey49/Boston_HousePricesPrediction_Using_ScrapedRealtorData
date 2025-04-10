@@ -1,0 +1,34 @@
+1. What are the key factors influencing house prices in Boston?
+Analysis: Feature importance using regression coefficients, correlation heatmaps, or SHAP values.
+
+Business Impact: Helps buyers and sellers understand what drives property values (e.g., location, sqft, bedrooms).
+
+2. How does location (neighborhood/zip code) affect pricing trends?
+Analysis: Group by ZIP code/neighborhood and compare median prices, price per sqft.
+
+Business Impact: Identifies high-demand areas for buyers and investment opportunities for real estate agents.
+
+3. Are there seasonal trends in Boston’s real estate market?
+Analysis: Time series analysis (monthly/yearly price fluctuations).
+
+Business Impact: Helps determine the best time to buy/sell.
+
+4. How does the number of bedrooms and bathrooms impact price?
+Analysis: Compare avg. price per bedroom/bathroom count (box plots, regression slopes).
+
+Business Impact: Buyers can optimize budget by choosing the right property size.
+
+5. What is the price per square foot distribution across different areas?
+Analysis: Calculate price/sqft by neighborhood and visualize (bar charts, maps).
+
+Business Impact: Highlights overpriced/underpriced properties for negotiation.
+
+6. Can we predict price outliers (luxury vs. budget homes)?
+Analysis: Detect anomalies (Z-score, IQR) and compare luxury vs. affordable segments.
+
+Business Impact: Helps investors find undervalued properties.
+
+7. How well do different ML models (Linear Regression, Random Forest, XGBoost) perform in predicting prices?
+Analysis: Compare R², RMSE, MAE across models.
+
+Business Impact: Ensures the app provides the most accurate predictions.
